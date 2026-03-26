@@ -1,2 +1,24 @@
+# Node modules
+node_modules/
+
+# Environment variables
 .env
-node_modules
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build folders
+dist/
+build/
+
+# VS Code settings (optional)
+.vscode/
+
+# Package lock (optional, usually keep it)
+# package-lock.json
