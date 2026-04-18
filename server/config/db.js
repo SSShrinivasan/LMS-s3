@@ -26,9 +26,13 @@ const userSchema = new mongoose.Schema(
       required: true,
     },
     role: {
-  type: String,
-  enum: ["student", "instructor", "admin"],
-  default: "student",
+      type: String,
+      enum: ["student", "instructor", "admin"],
+      default: "student",
+    },
+    tenant: {
+      type: String, // e.g. "tcs", "hcl"
+      required: true,
     },
   },
   { timestamps: true }
